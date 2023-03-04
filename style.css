@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+
+body {
+    font-family: 'Special Elite', cursive;
+background: url(https://cdn.pixabay.com/photo/2020/07/02/04/31/matrix-5361690_1280.png);
+padding: 100px 0;
+color: greenyellow;
+}
+h3 {
+ font-size: 20px;
+ font-weight: bold;
+ margin-bottom: 10px;   
+}
+.container {
+    width: 800px;
+    min-height: 500px;
+    border: 10px solid #000000;
+    margin: 0 auto;
+    background: #000000;
+}
+.header {
+    display: flex;
+    height: 150px;
+   
+}
+.title-block {
+    color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    font-size: 30px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi6qIBfKhVuhMvBCEKHWNM82cvHuXoOtMKQw&usqp=CAU) no-repeat center center /cover;
+    margin-right: 10px;
+}
+
+.userpic {
+    display: flex;
+    height: 100%;
+    width: 20%;
+    background: url(https://i.ytimg.com/vi/rDe_TC3NW_8/maxresdefault.jpg) no-repeat center center /cover;
+    
+}
+.nav ul {
+    display: flex;
+    background: rgb(51, 50, 50);
+    margin: 10px 0;
+}
+
+.nav li a {
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    color: greenyellow;
+    font-weight: bold;
+    border-right: 1px solid #7eca7c;
+    transition: background 1s ease;
+}
+.nav li a:hover {
+    background: rgb(72, 90, 45);
+}
+.content-wrapper {
+    display: flex;
+}
+.content {
+    width: 70%;
+    padding: 20px;
+}
+.content p {
+    line-height: 20px;
+}
+.sidebar {
+    text-align: center;
+    padding: 20px;
+    width: 30%;
+}
+.skills li {
+padding: 10px 0;
+transition: transform .5s ease;
+cursor: pointer;
+}
+.skills li:hover {
+transform: translateX(10px);
+}
